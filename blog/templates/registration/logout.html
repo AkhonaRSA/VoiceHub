@@ -1,0 +1,12 @@
+{% extends 'blog/base.html' %}
+
+{% block content %}
+  <div class="jumbotron">
+
+    <h2>You have been successfully logged out!</h2>
+    <p>Thank you for using our website.</p>
+    <!-- Optionally, you can include a link to the login page -->
+    <a href="{% url 'login' %}" class="btn btn-primary">Login Again</a>
+
+  </div>
+{% endblock %}
